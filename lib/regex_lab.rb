@@ -1,3 +1,4 @@
+require "pry"
 def starts_with_a_vowel?(word)
   word =~ (/^[aeiou]|^[AEIOU]/) ? true : false 
 end 
@@ -8,6 +9,7 @@ end
 
 def words_five_letters_long(text)
   text.scan(/\w{5}/)
+  pry 
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
