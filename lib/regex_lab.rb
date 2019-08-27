@@ -8,8 +8,8 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-re = /text.match(\/\w{5}\/)/m
-str = '"extreme briny crepe parking snaps grouping snafu round dog be fork spoon"'
+re = text.match(\/\w{5}\/)
+# str = '"extreme briny crepe parking snaps grouping snafu round dog be fork spoon"'
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
